@@ -1,3 +1,7 @@
+//CODE BY RalDSZ
+//Copyright :ORBT TECHNOLOGIES all rights reserved
+//Last modified : 03/03/2022
+// name is schema name 
 export default {
     name:'testimonials',
     title:'Testimonials',
