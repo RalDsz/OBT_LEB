@@ -1,8 +1,12 @@
+//CODE BY RalDSZ
+//Copyright :ORBT TECHNOLOGIES all rights reserved
+//Last modified : 08/03/2022
 import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
-import logo from './logo.PNG'
+
+import logo from '../../assets/logo.PNG'
 import './Navbar.scss';
 
 const Navbar = () => {
