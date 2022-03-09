@@ -1,11 +1,9 @@
-//CODE BY RalDSZ
+//CODE BY RalDsz
 //Copyright :ORBT TECHNOLOGIES all rights reserved
 //Last modified : 08/03/2022
 import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
-
-
 import logo from '../../assets/logo.PNG'
 import './Navbar.scss';
 
@@ -18,7 +16,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" />
       </div>
       <ul className="app__navbar-links">
-        {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+        {['home', 'about', 'work', 'skills', 'contact', ].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
             <a href={`#${item}`}>{item}</a>
