@@ -1,7 +1,6 @@
 {
   "dependencies": {
-    "react-clear-cache": "^1.4.12"
+    "react-clear-cache": "^1.4.12",
+    "react-router-dom": "^6.2.2"
   }
 }
-
-
