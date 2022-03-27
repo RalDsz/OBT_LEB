@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Graduate&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
 
 :root {
-  --font-base: "Graduate", cursive;
+  --font-base: "Lato", sans-serif;
 
   --primary-color: #edf2f8;
   --secondary-color: #313bac;

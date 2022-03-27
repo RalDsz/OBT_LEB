@@ -4,7 +4,7 @@
 import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
-import logo from '../../assets/logo.PNG'
+import logo from '../../assets/logo.jpg';
 import './Navbar.scss';
 
 const Navbar = () => {
