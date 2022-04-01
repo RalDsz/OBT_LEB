@@ -8,8 +8,8 @@ import abt from './tesimg.jpg'
 import './About.scss'
 
 const abouts = [
-  { title: 'Researcher ', description: 'I have Researched in  the area of wireless and optical communication systems', imgUrl: abt },
-  { title: 'Faculty', description: 'experience of 12 years teaching undergraduate and postgraduate courses', imgUrl: abt },
+  { title: 'Researcher ', description: 'I have researched in  the area of wireless and optical communication systems', imgUrl: abt },
+  { title: 'Faculty', description: 'Experience of 12 years teaching undergraduate and postgraduate courses', imgUrl: abt },
   { title: 'Hands-on experience', description: ' 5+ years working with high-speed instruments and components for demonstrating optical coherent links, and testing analog chips integrated with respective systems', imgUrl: abt },
   { title:'Current', description: 'Currently a working group member for an ongoing work for an IEEE Standard related to rural area network', imgUrl: abt },
 ];
