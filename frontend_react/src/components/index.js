@@ -1,4 +1,9 @@
-//CODE BY RalDSZ
-//Copyright :ORBT TECHNOLOGIES all rights reserved
-//Last modified : 08/03/2022
-export { default as Navbar} from './Navbar/Navbar'; 
+import NavigationDots from './NavigationDots';
+import SocialMedia from './SocialMedia';
+import Navbar from './Navbar/Navbar';
+
+export {
+  NavigationDots,
+  SocialMedia,
+  Navbar,
+};

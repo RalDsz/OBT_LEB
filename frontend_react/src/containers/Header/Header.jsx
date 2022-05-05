@@ -9,6 +9,7 @@ import circle from '../../assets/circle.svg'
 import img1 from './t1.png' 
 import img2 from './t2.png'
 import img3 from './t3.png'  
+import { AppWrap } from '../../wrapper'
 
 const scaleVariants = {
   whileInView: {
@@ -81,4 +82,4 @@ const Header = () => (
  
 );
 
-export default Header
+export default AppWrap(Header, 'home');
