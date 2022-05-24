@@ -16,22 +16,25 @@ interface DateTimeOptions {
   timeFormat?: string
 }
 
-const getFormattedDate = (type = '', value: number | Date, options?: DateTimeOptions) => {
+const getFormattedDate = (type = '', value: string | number | Date, options?: DateTimeOptions) => {
   let format = 'yyyy-MM-dd'
   if (options && options.dateFormat) {
     format = options.dateFormat
   }
+
   if (type === 'date') {
     // If the type is date only
-    return formatDate(value, format)
+    return formatDate(new Date(value), format)
   }
+
   // If the type is datetime
   if (options && options.timeFormat) {
     format += ` ${options.timeFormat}`
   } else {
     format += ' HH:mm'
   }
-  return formatDate(value, format)
+
+  return formatDate(new Date(value), format)
 }
 
 function parseDate(date: unknown): Date | null
@@ -80,6 +83,7 @@ const dateValidators: Validators = {
       : {}
 
     const date = getFormattedDate(context.type.name, minDate, dateTimeOptions)
+
     return message || `Must be at or after ${date}`
   },
 

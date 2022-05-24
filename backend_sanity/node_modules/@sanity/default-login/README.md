@@ -2,21 +2,19 @@
 
 Let a user log into Sanity, and get access to the child content.
 
-
 ## Configuration
 
 By default this component will ask the Sanity API and get a list of providers, which the user can login with.
 
 However it is possible for enterprise customers to supply their own third party authentication server as a provider as well.
 
-This is done through configuring the studio with the file ``./config/@sanity/default-login.json``
+This is done through configuring the studio with the file `./config/@sanity/default-login.json`
 
 Example:
 
 ```
 {
-  providers: {
-
+  "providers": {
     // Append the custom providers to the default providers or replace them.
     "mode": "append", // default - or 'replace'
 
@@ -33,10 +31,14 @@ Example:
         "logo": "/static/img/vandelay.svg" // Optional, put it in the studio static folder
       }
     ]
-  }
+  },
+
+  // Login method to use for the studio the studio. Can be one of:
+  // `dual` (default) - attempt to use cookies where possible, falling back to storing authentication token in `localStorage` otherwise
+  // `cookie` - explicitly disable `localStorage` method, relying only on cookies
+  "loginMethod": "dual"
 }
 ```
-
 
 ## Using the component
 
