@@ -56,3 +56,5 @@ const About = () => {
 };
 
 export default AppWrap(About, 'about')
+
+Minor changes to fix sanity glitch
