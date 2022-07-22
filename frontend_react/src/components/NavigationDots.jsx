@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 /* eslint-disable jsx-a11y/anchor-has-content */
-
+//CODE BY RalDSZ
+//Copyright :ORBT TECHNOLOGIES all rights reserved
+//Last modified : 24/06/22
 import React from 'react';
 
 const NavigationDots = ({ active }) => (

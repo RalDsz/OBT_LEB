@@ -1,3 +1,7 @@
+//CODE BY RalDSZ
+//Copyright :ORBT TECHNOLOGIES all rights reserved
+//Last modified : 24/06/22
+
 import React from 'react'
 import { BsLinkedin, BsGoogle } from 'react-icons/bs';
 import { FaFacebook } from 'react-icons/fa';

@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
 
 :root {
-  --font-base: "Lato", sans-serif;
+  --font-base: "Roboto", sans-serif;
 
   --primary-color: #edf2f8;
   --secondary-color: #313bac;

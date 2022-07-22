@@ -1,3 +1,7 @@
+//CODE BY RalDSZ
+//Copyright :ORBT TECHNOLOGIES all rights reserved
+//Last modified : 24/06/22
+
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
