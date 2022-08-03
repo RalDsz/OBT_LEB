@@ -1,6 +1,6 @@
 //CODE BY RalDSZ
 //Copyright :ORBT TECHNOLOGIES all rights reserved
-//Last modified : 24/06/22
+//Last modified : 03/08/22
 import React from 'react';
 
 import { About, Footer, Header, Skills, Testimonial, Work } from './containers';

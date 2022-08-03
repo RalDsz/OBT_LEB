@@ -1,0 +1,8 @@
+LEB_Infor - information will be provided bt cli later
+
+Feature Recomendations:
+
+1) Add .ENV or LocalENV everywhere 
+2) Fix and add social media links 
+3) Fix sanity with NGROK
+

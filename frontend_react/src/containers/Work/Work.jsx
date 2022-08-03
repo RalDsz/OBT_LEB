@@ -1,3 +1,7 @@
+//CODE BY RalDSZ
+//Copyright :ORBT TECHNOLOGIES all rights reserved
+//Last modified : 03/08/22
+
 import React, { useState, useEffect } from 'react';
 import { AiFillEye } from 'react-icons/ai';
 import { motion } from 'framer-motion';
