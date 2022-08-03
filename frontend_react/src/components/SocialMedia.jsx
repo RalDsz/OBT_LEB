@@ -14,7 +14,9 @@ const SocialMedia = () => {
             <BsLinkedin />
         </div>
         <div>
+          <a href = "http://localhost:3333/desk">
             <FaFacebook />
+          </a>
         </div> 
         <div>
             <BsGoogle />
