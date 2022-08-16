@@ -1,12 +1,10 @@
-//CODE BY RalDSZ
-//Copyright :ORBT TECHNOLOGIES all rights reserved
-//Last modified : 03/08/22
+ 
 
 import React, { useState, useEffect } from 'react';
 import { AiFillEye } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 
-import { AppWrap, MotionWrap } from '../../wrapper';
+
 import { urlFor, client } from '../../client';
 import './Work.scss';
 
@@ -102,4 +100,4 @@ const Work = () => {
   );
 };
 
-export default AppWrap(Work, 'work')
+export default Work

@@ -1,6 +1,4 @@
-//CODE BY RalDSZ
-//Copyright :ORBT TECHNOLOGIES all rights reserved
-//Last modified : 03/08/22
+ 
 
 import sanityClient from "@sanity/client";
 import ImgUrlBuilder from "@sanity/image-url";
