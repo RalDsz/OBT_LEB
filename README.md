@@ -1,5 +1,5 @@
 # OBT_LEB
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a8b215b7-bb52-463e-9245-56abbdcdf7c2/deploy-status)](https://app.netlify.com/sites/proj-leb/deploys)
 
 This is the Official Source code of project Codename Lebensluf
 NO ONE Exept @YBSuperAwesome02 and @RalDsz Has acces to this source code
