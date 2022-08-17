@@ -1,0 +1,11 @@
+Re Add Higher order components and SML components to the application 
+>environment.
+> Add loaders for fre secsSuffixes to the application environment.
+
+> Add the application to the environment. This will also add the new
+
+
+
+    
+    
+    */
