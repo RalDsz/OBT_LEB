@@ -3,7 +3,7 @@
 
 This is the Official Source code of project Codename Lebensluf
 
-![image]({https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB})
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFBe" />
 NO ONE Exept @YBSuperAwesome02 and @RalDsz Has acces to this source code
 All PRs will be ignored 
 This is a Personal Project by ORBT Tech so Lets keep it that way :)
